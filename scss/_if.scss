@@ -1,0 +1,132 @@
+$fondoboyfoo: navidad;
+
+
+@if $fondoboyfoo == navidad    	{
+    header nav ul li:hover ul {
+        background-color: $colorverde;
+    }
+    .contacto {
+        .link_numerotel {
+            background-color: $colorverde;
+            color:$colorblanco
+        }
+    }
+    main    {
+        .h1_productos   	{
+            color: $colorblanco;
+        }
+        .historia_centrar    {
+            color:$colorblanco;
+        }
+        .pad_form_pagar, .form-text {
+            color: $colorblanco;
+        }
+    }
+    body    {
+        background-color: $colorrojo;
+    }
+    .h1comprafinalizada{
+       color: $colorblanco;
+    }
+    p   {
+        color: $colorblanco;
+    }
+    main    {
+        .tipo-producto{
+            color: $colorblanco;
+        }
+        .p__textonatura {
+            color: $colorblanco;
+        }
+    }
+    h2{
+        color: $colorblanco;
+    }
+    h3{
+        color: $colorblanco;
+    }
+    span{
+        color: $colorblanco;
+    }
+    footer  {
+        .gradiante_footer  {
+            background: linear-gradient(to top, #009e00,red);
+        }
+    }
+    header  {
+        .div__logo {
+            background-color: $colorrojo;
+        }
+        .nav_colorfuente    {
+            color: $colorblanco;
+        }
+        .perfcremdeso {
+            color: $colorblanco;
+        }
+
+    .dropdown-menu-dark {
+        background-color: $colorverde;
+    }
+}
+main    {
+    .acolorindex{
+        color: $colorblanco;
+
+    }
+    .botones {
+        background-color: $colornegro;
+        color: $colorverde ;
+    }
+    .estiloofertas, .estilocarrito  {
+        color: $colorblanco;
+    }
+   
+    .bordes_productos,.bordes_productos_index  {
+        background-color: $colorverde;
+    }
+    
+} 
+body    {
+    @keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-moz-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-webkit-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-ms-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        #contenedor-nieve {
+        background-image: url(http://lh3.googleusercontent.com/-k6mAvDmeu4Q/UMefU6JI32I/AAAAAAAADpM/zdjTclnGDhM/s500/snow.png), url(http://lh6.googleusercontent.com/-8wOkQAdxfgg/UMefVfmte0I/AAAAAAAADpU/aE4HxfiXD88/s400/snow3.png), url(http://lh5.googleusercontent.com/-fhO2tXwKP9M/UMefVCohCOI/AAAAAAAADpQ/nFVnzK1W0xw/s300/snow2.png);
+        -webkit-animation: snow 20s linear infinite;
+        -moz-animation: snow 20s linear infinite;
+        -ms-animation: snow 20s linear infinite;
+        animation: snow 20s linear infinite;
+        }
+}  
+    
+}
+        
+    @else if $fondoboyfoo == estandar   {
+        body    {
+            background-color: rgba(255, 255, 255, 0.952);
+
+
+        }
+        .contacto {
+            .link_numerotel {
+                background-color: colornaranja ;
+            }
+        }
+    }

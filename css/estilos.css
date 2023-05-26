@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  margin: 20px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+header nav ul li ul {
+  margin-left: 15px;
+  display: none;
+  position: absolute;
+}
+
+header nav ul li:hover ul {
+  background-color: #ff6913;
+  display: block;
+}
+
+header .div__logo {
+  text-align: center;
+  background-color: #ff6913;
+}
+header .img__logo {
+  width: 150px;
+}
+header .nav_colorfuente {
+  color: black;
+  font-size: 30px;
+}
+header .dropdown-menu-dark {
+  background-color: white;
+}
+header .perfcremdeso {
+  color: black;
+  font-size: 25px;
+}
+
+main .video {
+  padding-top: 168px;
+}
+main .historia_centrar {
+  padding-top: 30px;
+  text-align: center;
+}
+main .p__textonatura {
+  padding-top: 25px;
+  font-size: 19px;
+  color: black;
+}
+main .columnas__productos_index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding-bottom: 50px;
+  width: auto;
+}
+main .bordes_productos_index {
+  background-color: rgba(167, 167, 167, 0.514);
+  border-collapse: separate;
+  border-spacing: 30px 30px;
+  border: 5px solid rgba(161, 161, 161, 0.281);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 250px;
+  height: auto;
+  transition: 1s linear;
+}
+main .bordes_productos_index:hover {
+  transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);
+}
+main .acolorindex {
+  color: black;
+}
+
+main .h1_productos {
+  padding-top: 70px;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+main .columnas__productos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  padding-bottom: 50px;
+  width: auto;
+}
+main .bordes_productos {
+  background-color: rgba(167, 167, 167, 0.514);
+  border-collapse: separate;
+  border-spacing: 30px 30px;
+  border: 5px solid rgba(161, 161, 161, 0.281);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 250px;
+  height: auto;
+}
+main .tipo-producto {
+  color: black;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+main .imgproducto {
+  height: 100px;
+}
+main .botones {
+  background-color: #ff6913;
+  border-radius: 18px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+main .estiloofertas {
+  color: colorencabezados;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+main .animate__tada {
+  animation-iteration-count: infinite;
+}
+main .precioanterior {
+  text-decoration: line-through;
+}
+@keyframes precio_oferta {
+  45% {
+    background-color: #469992;
+  }
+}
+main .precio_oferta {
+  animation-name: precio_oferta;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+main .padincarrito {
+  padding-bottom: 30px;
+}
+main .estilocarrito {
+  color: colorencabezados;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+.contacto {
+  margin: 5px 20px;
+}
+.contacto .asesornatura,
+.contacto .asesornatura_1,
+.contacto .asesornatura_2 {
+  font: 16px sans-serif;
+  padding-top: 85px;
+}
+.contacto .tipo_contactenos {
+  color: colorencabezados;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contacto .link_numerotel {
+  background-color: #ff6913;
+  color: black;
+  font-size: 20px;
+}
+
+main .pad_form_pagar {
+  padding-top: 150px;
+}
+main .pad_footer {
+  padding-top: 50px;
+}
+main .form-check-input {
+  background-color: #ff6913;
+  border-radius: 18px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+body .flex_entregado {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+body .imagen_tilde {
+  width: 30px;
+}
+
+.gradiante_footer {
+  background: #ff6913;
+}
+.gradiante_footer .flex_footer_p_img {
+  display: flex;
+  justify-content: center;
+}
+.gradiante_footer .flex_p_footer {
+  font-size: 30px;
+  text-align: center;
+}
+.gradiante_footer .img_notesteo {
+  width: 80px;
+}
+.gradiante_footer .flex_img_fondo_footer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.gradiante_footer .img_whats {
+  padding-right: 5px;
+  width: 45px;
+  border-radius: 3cm;
+}
+.gradiante_footer .img_instagram {
+  padding-left: 9px;
+  width: 45px;
+  border-radius: 3cm;
+}
+.gradiante_footer .img_facebook {
+  padding-right: 9px;
+  width: 45px;
+  border-radius: 3cm;
+}
+
+header nav ul li:hover ul {
+  background-color: rgb(5, 117, 5);
+}
+
+.contacto .link_numerotel {
+  background-color: rgb(5, 117, 5);
+  color: white;
+}
+
+main .h1_productos {
+  color: white;
+}
+main .historia_centrar {
+  color: white;
+}
+main .pad_form_pagar, main .form-text {
+  color: white;
+}
+
+body {
+  background-color: rgb(247, 0, 0);
+}
+
+.h1comprafinalizada {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+main .tipo-producto {
+  color: white;
+}
+main .p__textonatura {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+footer .gradiante_footer {
+  background: linear-gradient(to top, #009e00, red);
+}
+
+header .div__logo {
+  background-color: rgb(247, 0, 0);
+}
+header .nav_colorfuente {
+  color: white;
+}
+header .perfcremdeso {
+  color: white;
+}
+header .dropdown-menu-dark {
+  background-color: rgb(5, 117, 5);
+}
+
+main .acolorindex {
+  color: white;
+}
+main .botones {
+  background-color: black;
+  color: rgb(5, 117, 5);
+}
+main .estiloofertas, main .estilocarrito {
+  color: white;
+}
+main .bordes_productos, main .bordes_productos_index {
+  background-color: rgb(5, 117, 5);
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+body #contenedor-nieve {
+  background-image: url(http://lh3.googleusercontent.com/-k6mAvDmeu4Q/UMefU6JI32I/AAAAAAAADpM/zdjTclnGDhM/s500/snow.png), url(http://lh6.googleusercontent.com/-8wOkQAdxfgg/UMefVfmte0I/AAAAAAAADpU/aE4HxfiXD88/s400/snow3.png), url(http://lh5.googleusercontent.com/-fhO2tXwKP9M/UMefVCohCOI/AAAAAAAADpQ/nFVnzK1W0xw/s300/snow2.png);
+  animation: snow 20s linear infinite;
+}
+
+/* index */
+/* productos */
+/* ofertas */
+/* carrito */
+/* pagar */
+/* compra finalizada */
+/* contacto */
+/* footer */
+/* @media screen and (max-width: 620px) {
+    .carrito__main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+} *//*# sourceMappingURL=estilos.css.map */

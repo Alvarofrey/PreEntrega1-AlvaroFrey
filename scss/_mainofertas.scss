@@ -1,0 +1,33 @@
+main{
+    .estiloofertas {
+        color: colorencabezados;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 60px;
+    
+    }
+    .animate__tada {
+        animation-iteration-count: infinite;
+    }
+    .precioanterior {
+        text-decoration: line-through;
+    }
+    @keyframes precio_oferta {
+
+        45% {
+            background-color: #469992;
+        }
+    }
+    
+    .precio_oferta {
+        animation-name: precio_oferta;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0s;
+    
+    }
+    
+
+}

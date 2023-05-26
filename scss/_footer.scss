@@ -1,0 +1,35 @@
+.gradiante_footer {
+    background: $colornaranja;
+
+
+.flex_footer_p_img {
+    display: flex;
+    justify-content: center;
+}
+.flex_p_footer {
+    font-size: 30px;
+    text-align: center;
+}.img_notesteo {
+    width: 80px;
+}.flex_img_fondo_footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.img_whats {
+    padding-right: 5px;
+    width: 45px;
+    border-radius: 3cm;
+}
+.img_instagram {
+    padding-left: 9px;
+    width: 45px;
+    border-radius: 3cm;
+}
+.img_facebook {
+    padding-right: 9px;
+    width: 45px;
+    border-radius: 3cm;
+}
+}
